@@ -1,0 +1,42 @@
+/*
+    Palette:
+    Forest Green: #2A9134
+    May Green: #3FA34D
+    Denim: #246EB9
+    Dark Imperial Blue: #246EB9
+    Fuzzy Wuzzy: #C97064
+*/
+
+
+
+
+/* Popup .html */
+#popupBody  {
+    text-align: center;
+    height: 352px;
+    width: 240px;
+    overflow: scroll;
+}
+#popupCompareButton {
+    width:85%;
+    background-color: #3FA34D;
+    border-color: #2A9134;
+}
+
+#popupH1{
+    color: #3FA34D;
+}
+
+#popupH6{
+    color: #3FA34D;
+}
+
+#popupHR{
+    border-bottom: 1px solid #246EB9;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#popupForm{
+    color: #246EB9;
+}
