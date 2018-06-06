@@ -3,6 +3,21 @@
   "description": "Compare CosDNA products with ease!",
   "version": "0.1",
   "manifest_version": 2,
+  "permissions": [
+      "tabs"
+  ],
+  "content_scripts":[
+      {
+          "matches": ["http://*/*"],
+          "css": ["style.css"],
+          "js": [
+              "/popup/popup.js",
+              "/options/options.js",
+              "/comparison/comparison.js"
+          ]
+
+      }
+  ],
   "background":{
     "scripts": ["background.js"],
     "persistent": false
