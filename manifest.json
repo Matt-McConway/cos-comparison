@@ -11,18 +11,18 @@
   "browser_action": {
     "default_popup": "/popup/popup.html",
     "default_icon": {
-      "16": "/images/favicon.png",
-      "32": "/images/favicon.png",
-      "48": "/images/favicon.png",
-      "64": "/images/favicon.png",
-      "128": "/images/favicon.png"
+      "16": "/images/Logo-16.png",
+      "32": "/images/Logo-32.png",
+      "48": "/images/Logo-48.png",
+      "64": "/images/Logo-64.png",
+      "128": "/images/Logo-128.png"
       }
   },
   "icons": {
-    "16": "/images/favicon.png",
-    "32": "/images/favicon.png",
-    "48": "/images/favicon.png",
-    "64": "/images/favicon.png",
-    "128": "/images/favicon.png"
+    "16": "/images/Logo-16.png",
+    "32": "/images/Logo-32.png",
+    "48": "/images/Logo-48.png",
+    "64": "/images/Logo-64.png",
+    "128": "/images/Logo-128.png"
   }
 }
