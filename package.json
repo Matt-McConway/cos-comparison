@@ -1,0 +1,24 @@
+{
+  "name": "cos-comparison",
+  "version": "0.1.0",
+  "description": "A simple way to compare CosDNA products",
+  "main": "background.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matt-McConway/cos-comparison.git"
+  },
+  "author": "Matt McConway",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Matt-McConway/cos-comparison/issues"
+  },
+  "homepage": "https://github.com/Matt-McConway/cos-comparison#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3"
+  }
+}

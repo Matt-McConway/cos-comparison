@@ -9,11 +9,15 @@
   "content_scripts":[
       {
           "matches": ["http://*/*"],
-          "css": ["style.css"],
+          "css": ["style.css", "/node_modules/bootstrap/dist/css/bootstrap.min.css"],
           "js": [
               "/popup/popup.js",
               "/options/options.js",
-              "/comparison/comparison.js"
+              "/comparison/comparison.js",
+              "/node_modules/jquery/dist/jquery.min.js",
+              "/node_modules/popper.js/dist/popper.min.js",
+              "/node_modules/bootstrap/dist/js/bootstrap.min.js"
+
           ]
 
       }
