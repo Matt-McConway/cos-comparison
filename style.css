@@ -13,7 +13,7 @@
 /* Popup .html */
 #popupBody  {
     text-align: center;
-    height: 352px;
+    max-height: 352px;
     width: 240px;
     overflow: scroll;
 }
@@ -21,6 +21,7 @@
     width:85%;
     background-color: #3FA34D;
     border-color: #2A9134;
+    margin-bottom: 10px;
 }
 
 #popupH1{
